@@ -539,6 +539,15 @@ margin:10px 0 0 0;
     margin: 50px auto 20px 0;
     background-color: var(--maincolor);
 }
+@media (max-width:450px){
+   .about-content p:first-child,.about-content p:last-child{
+       padding-left:20px;
+    }
+    .about-content hr{
+    margin: 50px auto 20px 20px;
+    
+    }
+}
 /* end about */
 /* start contact */
 .contact{
